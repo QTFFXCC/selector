@@ -1,25 +1,26 @@
 {
-       "name": "prop-firm-challenge",
-       "private": true,
-       "version": "0.0.0",
-       "type": "module",
-       "scripts": {
-         "dev": "vite",
-         "build": "vite build",
-         "prebuild": "chmod +x node_modules/.bin/vite",
-         "preview": "vite preview"
-       },
-       "dependencies": {
-         "react": "^18.2.0",
-         "react-dom": "^18.2.0"
-       },
-       "devDependencies": {
-         "@types/react": "^18.2.43",
-         "@types/react-dom": "^18.2.17",
-         "@vitejs/plugin-react": "^4.2.1",
-         "vite": "^5.2.0"
-       },
-       "engines": {
-         "node": "18.x"
-       }
-     }
+  "name": "prop-firm-challenge",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prebuild": "chmod +x node_modules/.bin/vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^5.4.19",
+    "rollup": "^4.9.6"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
